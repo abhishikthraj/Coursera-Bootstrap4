@@ -76,15 +76,13 @@ body{
 }
 
 .modal-header {
-	background-color: #512dA8;
-	color: floralwhite;
+	background-color: $background-dark;
+    color: floralwhite;    
+    .close {
+        color: floralwhite;
+    }
+    
 }
 .modal-body {
-	background: #d1c4e9;
-}
-#closelogin {
-	color: floralwhite;
-}
-#closereserve {
-	color: floralwhite;
+	background: $background-pale;
 }
